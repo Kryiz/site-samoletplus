@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+$theme-colors: (
+    primary: #007bfb,
+    secondary: #3b3c3e,
+    success: #1e6111,
+    info: #64c3d2,
+    warning: #f5e74a,
+    danger: #820410,
+);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn-outline-primary {
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+}
