@@ -132,7 +132,7 @@ input::-webkit-inner-spin-button {
 }
 
 .hero__main {
-  background: no-repeat url(/img/hero.png), var(--grey);
+  background: no-repeat url(../img/hero.png), var(--grey);
   background-size: contain;
   background-position: top right;
   min-height: 140px;
